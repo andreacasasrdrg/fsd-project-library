@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,500,600,700');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo';
+  overflow-x: hidden;
+}
+
+.btn {
+      border-radius: 30px;
+      width: 100px;
+}
+
+.breadcrumbLink {
+  color: #707070;
+  text-decoration: none;
+}
+
+.breadcrumbLink:hover {
+  text-decoration: none;
+  color: #bab8b8;
+}
+
+.sideBar:hover {
+color: black;
+background-color: #bab8b8;
+-webkit-transition: all .2s cubic-bezier(0.4, 0, 1, 1);
+-moz-transition: all .2s cubic-bezier(0.4, 0, 1, 1);
+transition: all .2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+::placeholder {
+  font-style: italic;
+  color: #707070;
+}
